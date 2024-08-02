@@ -30,6 +30,6 @@ class Penyakit extends Model
 
     public function diagnosa()
     {
-        return $this->hasMany(Diagnosa::class);
+        return $this->hasMany(Diagnosis::class);
     }
 }

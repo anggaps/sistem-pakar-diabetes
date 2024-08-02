@@ -3,16 +3,11 @@
         <div class="row ">
             <div class="col-12 col-md-6 ">
                 <p class="font-semibold h4">
-                    SPDHTC
+                    SPDPD
                 </p>
                 <p class="pt-3 pb-2">
                     <small>
-                        SPDHTC (Sistem Pakar Diagnosis Penyakit Tanaman Cabai) merupakan hasil tugas akhir dari tim
-                        pengembang di Prodi Teknik Informatika Politeknik negeri Banjarmasin. SPDHTC menggunakan data
-                        yang diperoleh dari pakar yang berkompeten, sehingga keakuratan datanya dapat dipercaya. Latar
-                        belakang mengapa SPDHTC dibangun adalah untuk membantu masyarakat, terutama para petani cabai,
-                        dalam mendapatkan informasi dengan cepat dan mudah tanpa harus berkonsultasi secara langsung
-                        dengan pakar atau penyuluh lapangan.
+                        SPDPD (Sistem Pakar Diagnosis Penyakit Tanaman Cabai) merupakan Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas ratione saepe corrupti amet quod sint dolorum explicabo provident ullam tenetur.
                     </small>
                 </p>
             </div>
@@ -24,7 +19,7 @@
                     Tim Pengembang
                 </small>
                 <ul>
-                    <li>
+                    {{-- <li>
                         <small>
                             Muhammad Rizky Ilham Pratama
                         </small>
@@ -57,7 +52,7 @@
                                 Instagram
                             </a>
                         </div>
-                    </li>
+                    </li> --}}
                 </ul>
             </div>
         </div>
@@ -66,17 +61,19 @@
                 Catatan
             </strong>
             <p class="pt-3">
-                <small>Sistem ini memiliki keterbatasan cakupan data penyakit tanaman cabai, sehingga tidak semua
-                    penyakit dapat didiagnosis. Namun, SPDHTC bersifat <i>scalable</i> atau dapat dikembangkan atau
+                {{-- <small>Sistem ini memiliki keterbatasan cakupan data penyakit tanaman cabai, sehingga tidak semua
+                    penyakit dapat didiagnosis. Namun, SPDPD bersifat <i>scalable</i> atau dapat dikembangkan atau
                     diperluas. Jika tertarik untuk berkontribusi atau ikut memperluas cakupan data tersebut, silakan
-                    hubungi kontak tim pengembang untuk lebih lanjut.</small>
+                    hubungi kontak tim pengembang untuk lebih lanjut.</small> --}}
+
+                <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque libero, accusamus placeat voluptate explicabo ex rerum quia, iste molestiae nostrum quaerat vero odio ea labore, beatae impedit aspernatur perspiciatis consequatur.</small>
             </p>
         </div>
         <div class="d-flex justify-content-center mt-5 ">
             <small class="font-monospace">
-                Copyright &copy; 2023 &#8226;
+                Copyright &copy; 2024 &#8226;
                 <a class="font-monospace text-reset" href="https://github.com/rizkyilhampra/spdhtc">
-                    SPDHTC
+                    SPDPD
                 </a>
             </small>
         </div>

@@ -53,7 +53,7 @@
                             </button>
                         </div>
                     </form>
-                    <div class="text-center mt-4 mb-3">
+                    {{-- <div class="text-center mt-4 mb-3">
                         <div class="text-job text-muted">Atau masuk dengan</div>
                     </div>
                     <div class="row sm-gutters">
@@ -66,7 +66,7 @@
                                 @csrf
                             </form>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
             <div class="mt-3 text-muted text-center">

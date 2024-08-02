@@ -5,16 +5,15 @@
             <div class="row min-vh-100 min-vh-u-lg-85 align-content-center">
                 <div class="col-12 col-lg-6 py-5" data-aos="fade-right" id="container-image-hero">
                     <img class="img-fluid bg-body-tertiary rounded" id="gambar-cabai"
-                        src="{{ asset('assets/img/gambar-cabai.webp') }}" width="1280" height="853"
+                        src="{{ asset('assets/img/d.jpg') }}" width="1280" height="853"
                         alt="Gambar Cabai https://fumida.co.id/wp-content/uploads/2021/03/67.-membasmi-hama-cabai.jpg">
                 </div>
                 <div class="col-12 col-lg-6 align-self-center px-3 px-sm-5" data-aos="fade-left" data-aos-anchor="body"
                     id="col2">
                     <h1 class="text-start font-bold ">
-                        Sistem Pakar Diagnosis Penyakit Tanaman Cabai
+                        Sistem Pakar Diagnosis Penyakit Diabetes
                     </h1>
-                    <p class="lead">Temukan penyakit yang menyerang tanaman cabai anda serta ketahui penyebab dan solusi
-                        pengendaliannya. Daftar sekarang lalu mulai diagnosis untuk hasil panen yang lebih baik!</p>
+                    <p class="lead">Temukan gejala yang mungkin menunjukkan penyakit diabetes serta ketahui penyebab dan solusi pengendaliannya. Daftar sekarang lalu mulai diagnosis untuk kesehatan yang lebih baik!</p>
                 </div>
             </div>
         </div>
@@ -29,12 +28,7 @@
                     <div class="card shadow border border-0">
                         <div class="card-body">
                             <div class="card-text">
-                                Sistem ini menggunakan metode forward chaining untuk mendiagnosis penyakit. Proses dimulai
-                                dengan mengevaluasi gejala yang diberikan oleh pengguna, kemudian sistem mencocokkannya
-                                dengan aturan yang ada. Jika terdapat aturan yang terpenuhi, sistem akan memberikan detail
-                                hasil diagnosis penyakit. Detail hasil diagnosis penyakit akan disimpan dalam sistem.
-                                Pengguna dapat melihat kembali detail hasil diagnosis yang telah dilakukan pada histori
-                                diagnosis di menu profil.
+                                Sistem ini menggunakan metode forward chaining untuk mendiagnosis penyakit. Proses dimulai dengan mengevaluasi gejala yang diberikan oleh pengguna, kemudian sistem mencocokkannya dengan aturan yang ada. Jika terdapat aturan yang terpenuhi, sistem akan memberikan detail hasil diagnosis penyakit. Detail hasil diagnosis penyakit akan disimpan dalam sistem. Pengguna dapat melihat kembali detail hasil diagnosis yang telah dilakukan pada histori diagnosis di menu profil.
                             </div>
                             <div class="d-grid pt-3">
                                 <button id="btn-diagnosis" class="btn btn-custom1 py-2">
@@ -50,7 +44,7 @@
     <div id="penyakit" class=" section">
         <div class="container">
             <h2 class="fw-semibold" data-aos="fade-up">
-                Daftar Penyakit Tanaman Cabai
+                Daftar Penyakit Terkait Diabetes
             </h2>
             <div class="row">
                 <div class="col-12">
@@ -90,7 +84,8 @@
                                                     </div>
                                                     <div>
                                                         <h3 class="h4 ">Solusi Penyakit</h3>
-                                                        @php
+                                                        {{ $p->solution }}
+                                                        {{-- @php
                                                             $solusi = $p->solution;
                                                             preg_match_all('/(\d+\.)\s*(.*?)(?=(\d+\.|$))/s', $solusi, $matches);
                                                             $nomorAsOlTag = '<ol>';
@@ -99,7 +94,7 @@
                                                             }
                                                             $nomorAsOlTag .= '</ol>';
                                                             echo $nomorAsOlTag;
-                                                        @endphp
+                                                        @endphp --}}
                                                     </div>
                                                 </div>
                                                 @php
