@@ -16,27 +16,15 @@ class NextFirstGejalaSeeder extends Seeder
     public function run()
     {
         Rule::where('penyakit_id', 1)->update([
-            'next_first_gejala_id' => 5,
+            'next_first_gejala_id' => 3, // Sesuaikan dengan gejala selanjutnya
         ]);
 
         Rule::where('penyakit_id', 2)->update([
-            'next_first_gejala_id' => 9,
+            'next_first_gejala_id' => 4,
         ]);
 
         Rule::where('penyakit_id', 3)->update([
-            'next_first_gejala_id' => 13,
-        ]);
-
-        Rule::where('penyakit_id', 4)->update([
-            'next_first_gejala_id' => 17,
-        ]);
-
-        Rule::where('penyakit_id', 5)->update([
-            'next_first_gejala_id' => 21,
-        ]);
-
-        Rule::where('penyakit_id', 6)->update([
-            'next_first_gejala_id' => 24,
+            'next_first_gejala_id' => 6,
         ]);
     }
 }

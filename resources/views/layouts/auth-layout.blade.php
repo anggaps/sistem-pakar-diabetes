@@ -32,9 +32,9 @@
     </div>
     <footer class="d-block mt-auto py-3">
         <div class="simple-footer mb-0">
-            Copyright &copy; 2023 <div class="bullet"></div>
+            Copyright &copy; 2024 <div class="bullet"></div>
             <a href="https://github.com/rizkyilhampra/spdhtc" target="_blank">
-                SPDHTC
+                SPDPD
             </a>
         </div>
     </footer>
